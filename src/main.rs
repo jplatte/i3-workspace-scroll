@@ -18,9 +18,7 @@ fn main() {
     let command = match args.nth(1) {
         Some(ref arg) if arg == "prev" => Command::Prev,
         Some(ref arg) if arg == "next" => Command::Next,
-        _ => {
-            usage();
-        }
+        _ => usage(),
     };
 
     let mut i3conn = I3Connection::connect().unwrap();
