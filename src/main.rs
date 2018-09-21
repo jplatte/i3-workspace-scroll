@@ -31,12 +31,12 @@ fn main() {
     match command {
         Command::Prev => {
             if same_output_workspaces.next().unwrap().name != focused_ws.name {
-                i3conn.command("workspace prev_on_output").unwrap();
+                i3conn.run_command("workspace prev_on_output").unwrap();
             }
         }
         Command::Next => {
             if same_output_workspaces.last().unwrap().name != focused_ws.name {
-                i3conn.command("workspace next_on_output").unwrap();
+                i3conn.run_command("workspace next_on_output").unwrap();
             }
         }
     };

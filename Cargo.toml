@@ -4,4 +4,4 @@ version = "0.1.0"
 authors = ["jplatte"]
 
 [dependencies]
-i3ipc = "0.4"
+i3ipc = "0.8.4"
