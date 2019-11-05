@@ -5,4 +5,5 @@ authors = ["jplatte"]
 edition = "2018"
 
 [dependencies]
+anyhow = "1.0.19"
 i3ipc = "0.10.1"
