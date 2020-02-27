@@ -1,7 +1,12 @@
 [package]
 name = "i3-workspace-scroll"
+description = "A helper for switching i3 or sway workspaces"
 version = "0.1.0"
-authors = ["jplatte"]
+authors = ["Jonas Platte <jplatte@posteo.de>"]
+repository = "https://github.com/jplatte/i3-workspace-scroll"
+readme = "README.md"
+tags = ["i3", "sway"]
+license = "GPL-3.0-or-later"
 edition = "2018"
 
 [dependencies]
