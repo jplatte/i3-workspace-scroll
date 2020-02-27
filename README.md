@@ -11,7 +11,7 @@ sway commands do.
 ## Installation
 
 ```
-cargo install --git https://github.com/jplatte/i3-workspace-scroll
+cargo install i3-workspace-scroll
 ```
 
 ## Usage
