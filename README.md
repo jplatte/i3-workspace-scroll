@@ -64,3 +64,10 @@ this to work. The configuration has to be placed in `~/.xbindkeysrc`.
 "~/.cargo/bin/i3-workspace-scroll next"
   Mod4 + b:5
 ```
+
+## License
+
+This application is licensed under the GNU General Public License v3.0 or any
+later version. The full license text can be found in the file <LICENSE> next to
+this README.
+
