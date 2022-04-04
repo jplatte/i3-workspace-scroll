@@ -16,8 +16,8 @@ fn usage() -> ! {
 fn main() -> anyhow::Result<()> {
     let mut args = env::args();
     let command = match args.nth(1) {
-        Some(ref arg) if arg == "prev" => Command::Prev,
-        Some(ref arg) if arg == "next" => Command::Next,
+        Some(arg) if arg == "prev" => Command::Prev,
+        Some(arg) if arg == "next" => Command::Next,
         _ => usage(),
     };
 
