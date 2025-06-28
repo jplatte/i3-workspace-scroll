@@ -5,7 +5,7 @@ version = "0.1.0"
 authors = ["Jonas Platte <jplatte@posteo.de>"]
 repository = "https://github.com/jplatte/i3-workspace-scroll"
 readme = "README.md"
-tags = ["i3", "sway"]
+keywords = ["i3", "sway"]
 license = "GPL-3.0-or-later"
 edition = "2021"
 
