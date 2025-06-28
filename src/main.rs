@@ -40,7 +40,7 @@ fn main() -> anyhow::Result<()> {
                 i3conn.run_command("workspace next_on_output")?;
             }
         }
-    };
+    }
 
     Ok(())
 }
