@@ -35,7 +35,8 @@ fn main() -> anyhow::Result<()> {
             }
         }
         Command::Next => {
-            if same_output_workspaces.last().context("no workspaces")?.name != focused_ws.name {
+            if same_output_workspaces.next_back().context("no workspaces")?.name != focused_ws.name
+            {
                 i3conn.run_command("workspace next_on_output")?;
             }
         }
